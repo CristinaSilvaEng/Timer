@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\timer.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Timer.Presenter\Timer.Presenter.csproj">

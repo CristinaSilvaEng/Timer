@@ -59,5 +59,15 @@ namespace Timer.View.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1452988021_resolutions_03 {
+            get {
+                object obj = ResourceManager.GetObject("1452988021_resolutions-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
