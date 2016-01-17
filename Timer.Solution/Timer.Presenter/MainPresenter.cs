@@ -42,7 +42,7 @@ namespace Timer.Presenter
 		/// <param name="e">Argumentos do evento.</param>
 		private void OnTimedEvent(object source, ElapsedEventArgs e)
 		{
-			Console.WriteLine("São {0}.", DateTime.Now.ToString("HH:mm:ss"));
+			Console.WriteLine("Tick at {0}.", DateTime.Now.ToString("HH:mm:ss"));
 
 			// Lança evento que é ouvido pelo View.
 			OnTick(this, EventArgs.Empty);
